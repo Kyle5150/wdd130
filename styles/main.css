@@ -1,0 +1,12 @@
+h1, a {
+    color: steelblue;
+}
+
+#active {
+    background-color: steelblue;
+    color: white;
+}
+
+.border {
+    background-color: lightgray;
+}
