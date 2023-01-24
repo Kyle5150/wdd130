@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 h1, a {
     color: steelblue;
 }
@@ -9,4 +13,34 @@ h1, a {
 
 .border {
     background-color: lightgray;
+}
+
+/* images need to be displayed as a block to be effected by margin */
+img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+/* effect the descendant elements */
+nav a {
+    text-decoration: none;
+}
+
+/* comma, do to all elements */
+nav a:hover {
+    color: red;
+}
+
+/* specify value */
+nav a:nth-of-type(3) {
+    color: red;
 }
