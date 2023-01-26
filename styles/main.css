@@ -17,7 +17,7 @@ h1, a {
 
 /* images need to be displayed as a block to be effected by margin */
 img {
-    width: 50%;
+    width: 20%;
     margin: 0 auto;
     display: block;
 }
