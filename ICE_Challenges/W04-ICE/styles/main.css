@@ -1,0 +1,49 @@
+body {
+    max-width: 23%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: pink;
+    color: white;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h1:hover{
+    color: black;
+}
+
+#Small_Quote {
+    font-size: 70%;
+}
+
+#Citation {
+    font-size: 90%;
+    font-weight: bolder;
+}
+
+#List {
+    color: black;
+    text-align: start;
+    font-size: 80%;
+    font-weight: bolder;
+    line-height: 200%;
+}
+
+img {
+    width: 35%;
+}
+
+#Large_Quote {
+    font-size: 160%;
+    max-width: 75%;
+    margin: 5% auto;
+}
+
+#Page_Citation {
+    color: black;
+    font-size: 75%;
+    width: 80%;
+    margin: 10% auto;
+}
