@@ -201,9 +201,164 @@ footer .social a:hover {
     width: 100%;
 }
 
+/* RIVERS PAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#rivers-title {
+    color: #3c6848;
+    font-family: "Shadows Into Light", Copperplate, Papyrus;
+    font-size: 3em;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.rivers-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.SalmonRiver {
+    grid-column: 3/9;
+    grid-row: 1/5;
+}
+
+#salmonbackground {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* grid-template-rows: repeat(10, 1fr); */
+    /* height: 600px; */
+}
+
+.river-img {
+    border: 5px solid #3c6848;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
+    /* display: inline; */
+}
+
+#salmonriverimage {
+    grid-column: 2/6;
+    grid-row: 2/4;
+    z-index: 1;
+}
+
+#salmonbackground {
+    background-color: #60bbdf;
+    /* grid-column: 3/9;
+    grid-row: 5/7; */
+}
+
+#salmonbackground p {
+    font-size: 0.9em;
+    grid-column: 6/11;
+    padding-left: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
+}
+
+#salmonbackground h2 {
+    grid-column: 1/11;
+    text-align: center;
+    padding: 2%;
+}
+
+/* next section */
+#buffer {
+    grid-column: 1/11;
+    grid-row: 5/6;
+    height: 50%;
+    padding: 3%;
+}
+
+.GrandCanyonUtah {
+    grid-column: 3/9;
+    grid-row: 6/10;
+}
+
+#graybackground {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* grid-template-rows: repeat(10, 1fr); */
+    /* height: 600px; */
+}
+
+#graycanyonimage {
+    grid-column: 2/6;
+    grid-row: 7/9;
+    z-index: 1;
+    height: 80%;
+}
+
+#graybackground {
+    background-color: #60bbdf;
+    /* grid-column: 3/9;
+    grid-row: 5/7; */
+}
+
+#graybackground p {
+    font-size: 0.9em;
+    grid-column: 6/11;
+    padding-left: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
+}
+
+#graybackground h2 {
+    grid-column: 1/11;
+    text-align: center;
+    padding: 2%;
+}
+
+/* next section */
+
+#buffer2 {
+    grid-column: 1/11;
+    grid-row: 10/11;
+    height: 50%;
+    padding: 3%;
+}
+
+.GrandCanyonArizona {
+    grid-column: 3/9;
+    grid-row: 11/15;
+}
+
+#grandbackground {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* grid-template-rows: repeat(10, 1fr); */
+    /* height: 600px; */
+}
+
+#grandcanyonimage {
+    grid-column: 2/6;
+    grid-row: 12/14;
+    z-index: 1;
+    height: 90%;
+}
+
+#grandbackground {
+    background-color: #60bbdf;
+    /* grid-column: 3/9;
+    grid-row: 5/7; */
+}
+
+#grandbackground p {
+    font-size: 0.9em;
+    grid-column: 6/11;
+    padding-left: 7%;
+    padding-bottom: 7%;
+    padding-right: 7%;
+}
+
+#grandbackground h2 {
+    grid-column: 1/11;
+    text-align: center;
+    padding: 2%;
+}
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid {
         display: block;
         height: auto;
     }
@@ -223,7 +378,7 @@ footer .social a:hover {
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, #rivers-title {
         font-size: 25px;
         color: #6f7364;
     }
@@ -234,10 +389,19 @@ footer .social a:hover {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, .river-img {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    #salmonbackground p {
+        grid-column: 1/11;
+    }
+    #graybackground p {
+        grid-column: 1/11;
+    }
+    #grandbackground p {
+        grid-column: 1/11;
     }
     footer {
         margin-top: 25px;
