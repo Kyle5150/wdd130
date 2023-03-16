@@ -33,6 +33,7 @@ nav a {
     /* padding: 50px; */
     border-radius: 50%;
     width: 20%;
+    border: 1px solid black;
 }
 nav a:hover {
     background-color: #567A90;
@@ -44,9 +45,9 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
-/* .logo {
-    border-radius: 50%;
-} */
+.logo {
+    border: 1px solid black;
+}
 /* **************HEADER*************** */
 #hero {
     display: grid;
@@ -161,6 +162,7 @@ footer {
     text-decoration: underline;
     padding: 2%;
     color: #ffffff;
+    border: 1px solid black;
 }
 .site-plan a:hover {
     background-color: white;
