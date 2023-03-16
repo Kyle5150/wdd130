@@ -44,15 +44,16 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
-.logo {
+/* .logo {
     border-radius: 50%;
-}
+} */
 /* **************HEADER*************** */
 #hero {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     /* grid-template-rows: 680px 280px; */
-    grid-template-rows: 2fr 1fr;
+    /* grid-template-rows: 2fr 1fr; */
+    grid-template-rows: 575px 1fr;
 }
 #hero-box {
     grid-column: 1/4;
