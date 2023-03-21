@@ -44,8 +44,11 @@ nav a:hover {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    padding-left: 15px;
 }
 .logo {
+    width: 80%;
+    height: 80%;
     border: 1px solid black;
 }
 /* **************HEADER*************** */
@@ -83,7 +86,7 @@ nav a:hover {
 .main-msg {
     font-family: "Playfair Display", Helvetica, sans-serif;
     color: #E8B85F;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
 }
 /* **************MAIN*************** */
 .home-grid {
@@ -111,7 +114,7 @@ nav a:hover {
     font-size: 2em;
     background-color: #E8B85F;
     color: #ff3131;
-    padding: 2%;
+    padding: 7%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     border: 1px solid black;
@@ -160,7 +163,7 @@ footer {
 .site-button {
     background-color: #567A90;
     text-decoration: underline;
-    padding: 2%;
+    padding: 5%;
     color: #ffffff;
     border: 1px solid black;
 }
@@ -178,7 +181,7 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     #hero, .home-grid {
         display: block;
         /* height: auto; */
@@ -190,6 +193,7 @@ footer {
         display: block;
         /* padding: 15px; */
         background-color: #E8B85F;
+        border: none;
     }
     nav a:hover {
         background-color: #E8B85F;
