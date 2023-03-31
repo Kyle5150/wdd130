@@ -315,6 +315,72 @@ footer {
     /* text-align: left; */
 }
 
+/* **************************ABOUT US PAGE************************** */
+
+.about-title {
+    text-align: center;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    padding: 5%;
+    color: #567A90;
+}
+
+.about-img-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 100px;
+}
+
+.about-img {
+    grid-column: 3/6;
+    grid-row: 1/4;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.pic-msg {
+    text-align: center;
+    grid-column: 3/6;
+    grid-row: 4/5;
+    /* padding-top: 5%; */
+    color: black;
+}
+
+.about-msg {
+    text-align: center;
+    background-color: #567A90;
+    color: white;
+    padding: 3%;
+}
+
+.about-msg {
+    display: grid;
+    columns: 20px 1fr 1fr 1fr 1fr 1fr 20px;
+}
+
+.main-para {
+    grid-column: 2/7;
+    line-height: 1.6em;
+}
+
+.quote {
+    grid-column: 3/6;
+    color: white;
+    font-size: .9em;
+    line-height: 1.4em;
+    font-style: italic;
+}
+
+.quote > span {
+    font-style: normal;
+}
+
+.space {
+    text-align: center;
+    padding: 1%;
+}
+
 @media screen and (max-width: 800px) {
     #hero, .home-grid {
         display: block;
